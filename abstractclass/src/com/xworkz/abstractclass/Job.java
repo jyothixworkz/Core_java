@@ -8,7 +8,7 @@ public abstract class Job {
 	
 	
 	
-	
+	// obstract class containing nothing
 	
 	
 	
