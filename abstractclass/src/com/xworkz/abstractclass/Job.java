@@ -10,7 +10,9 @@ public abstract class Job {
 	
 	// obstract class containing nothing
 	
-	
+	// obstract contain methods 
+	//obstract contain class
+	// no such terminalagy like abstract variable
 	
 	
 
