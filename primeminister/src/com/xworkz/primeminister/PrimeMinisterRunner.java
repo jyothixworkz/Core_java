@@ -11,7 +11,12 @@ public class PrimeMinisterRunner {
 		PrimeMinisterDAO impl = new PrimeMinisterDAOImpl();
 		PrimeMinisterService impl2 = new PrimeMinisterServiceImpl(impl);
 		try {
-			impl2.validAndSve("devegowda");
+			impl2.validAndSve("manoj");
+			impl2.validAndSve("jayanth");
+			impl2.validAndSve("jayaram");
+			impl2.validAndSve("darshan");
+			impl2.validAndSve("malthesh");
+			impl2.validAndSve("nandish");
 		} catch (PrimeMinisterCheckedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

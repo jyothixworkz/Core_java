@@ -16,7 +16,7 @@ public class PrimeMinisterServiceImpl implements PrimeMinisterService {
 	public boolean validAndSve(String name) throws PrimeMinisterCheckedException {
 		if (name != null && name.length() < 50 && name.length() > 4) {
 			if (dao.dublicate(name)) {
-				System.err.println("number is allready present");
+				System.err.println("number is allready present"+name);
 				throw new PrimeMinisterCheckedException("name is duplicate ");
 			} else {
 				System.out.println(" u can save the number to dao ;" + name);
