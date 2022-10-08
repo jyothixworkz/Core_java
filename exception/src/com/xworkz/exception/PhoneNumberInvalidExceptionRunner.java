@@ -4,8 +4,8 @@ public class PhoneNumberInvalidExceptionRunner {
 
 	public static void main(String[] args) {
 
-		// Long number = Long.parseLong(args[0]);
-		long number = 7204250720l;
+		 Long number = Long.parseLong(args[0]);
+		//long number = 7204250720l;
 		if (number == 7204250720l)
 			System.out.println(" it is manoj phone number");
 		else {

@@ -5,7 +5,8 @@ package com.xworkz.abstractclass;
 // obstract is nothing but incomplite or incomplite implimentation or an idea
 public abstract class Job {
 	
-	
+	String n="manoj";
+	//n="jah";
 	
 	
 	// obstract class containing nothing
