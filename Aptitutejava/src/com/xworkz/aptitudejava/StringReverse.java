@@ -17,6 +17,11 @@ public static void main(String[] args) {
 		System.out.print(s.charAt(i-1));
 		i--;
 	}
-	
+	System.out.println();
+	String string= "malathesh";
+	for(int i1=string.length();i1>0;i1--) {
+		System.out.print(string.charAt(i1-1));
+		
+	}
 }
 }
