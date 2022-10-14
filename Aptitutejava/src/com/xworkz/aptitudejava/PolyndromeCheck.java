@@ -14,7 +14,7 @@ public class PolyndromeCheck {
 	public static boolean checkPolyndrome( String str) {
 		StringBuffer buffer = new StringBuffer(str);
 		StringBuffer reverse = buffer.reverse();
-		System.out.println(reverse);
+		//System.out.println(reverse);
 		String string = buffer.toString();
 		if(str.equals(string)) {
 			return true;
