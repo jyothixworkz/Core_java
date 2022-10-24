@@ -6,7 +6,7 @@ package com.xworkz.abstractclass;
 //* if the class contain one obstract class then it should be declare as abstract class
 // most importently it also contain constarctor for chaining purpose
 public abstract class Marriage {
-	
+	int m;
 	public Marriage() {
 		
 	}

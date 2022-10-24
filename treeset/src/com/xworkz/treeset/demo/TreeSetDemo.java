@@ -5,8 +5,12 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeSet;
 
-public class TreeSetDemo {
+public class TreeSetDemo  {
 	public static void main(String[] args) {
+		
+		
+		TreeSetDemo demo = new TreeSetDemo();
+	
 	/*	  TreeSet set = new TreeSet();
 		  set.add("a");
 		  set.add("b");

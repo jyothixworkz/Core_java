@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class HashMapDemo {
+public class HashMapDemo extends TreeSetDemo {
 	
 	public static void main(String[] args) {
 		 Map<String,Integer> hashMap = new HashMap<String,Integer>();
