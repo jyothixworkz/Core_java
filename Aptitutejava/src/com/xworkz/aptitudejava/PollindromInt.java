@@ -1,9 +1,9 @@
 package com.xworkz.aptitudejava;
 
-public class Pollindrom {
+public class PollindromInt {
 
 	public static void main(String[] args) {
-		int num = 283;
+		int num = Integer.parseInt(args[0]);
 		int temp = num;
 		int rev = 0;
 		int rem;
@@ -14,12 +14,11 @@ public class Pollindrom {
 			temp = temp / 10;
 
 		}
-		if(num==rev) {
-			System.out.println("poli");
+		if (num == rev) {
+			System.out.println(" it is polindrome");
+		} else {
+			System.out.println(" its not");
 		}
-		else{
-			System.out.println("not");
-		}
-
 	}
+
 }

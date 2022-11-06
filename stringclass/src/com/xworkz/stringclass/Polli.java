@@ -18,7 +18,7 @@ public class Polli {
 		String string2 = buffer.toString();
 		
 		System.out.println(string2);
-		if(string2.equals(string2))
+		if(string2.equals(string))
 			return true;
 		else
 			return false;

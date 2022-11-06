@@ -1,7 +1,5 @@
 package com.xworkz.aptitudejava;
 
-import java.util.Iterator;
-
 public class StringReverse {
 public static void main(String[] args) {
 	

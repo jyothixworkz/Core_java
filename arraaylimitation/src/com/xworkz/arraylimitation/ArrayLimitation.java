@@ -1,10 +1,16 @@
 package com.xworkz.arraylimitation;
 
-public class ArrayLimitation {
+  class ArrayLimitation extends Object {
 static	int i[]= {1,2,3};
 //i=new int[10];
 	//int[] i= {1,2,3};
+int m ;  
+   ArrayLimitation(int x){
+	 this.m=x;
+}
+   
 public static void main(String[] args) {
+	ArrayLimitation limitation = new ArrayLimitation(10);
 	//i=new int[3];
 //		int i[];// array declaration
 //		i=new int[3];// creation 
@@ -28,7 +34,7 @@ public static void main(String[] args) {
 //		}
 		
 		
-	//	System.out.println(i[0]+" "+i[1]+" "+i[2]);
+		System.out.println(i[0]+" "+i[1]+" "+i[2]);
 		
 		
 	}
