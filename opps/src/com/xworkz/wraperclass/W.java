@@ -36,7 +36,7 @@ public class W {
 
 		Integer integer2 = new Integer(10);
 		String string = integer2.toString();
-		System.out.println(string);
+		System.out.println(string);//ma
 
 	}
 
